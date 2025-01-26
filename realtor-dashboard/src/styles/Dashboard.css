@@ -1,0 +1,110 @@
+.dashboard {
+    padding: 2rem;
+    background-color: #f4f7fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+
+  .section-title {
+    font-size: 1.8rem;
+    color: #495057;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+ 
+  .overview {
+    margin-bottom: 3rem;
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+  .stat-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .stat-card h3 {
+    font-size: 1.4rem;
+    color: #007bff;
+  }
+  
+  .stat-card p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #495057;
+    margin-top: 0.5rem;
+  }
+  
+  
+  .charts-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .chart-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2rem;
+    flex-basis: 48%; 
+    max-width: 40%; 
+    max-height: 400px; 
+    height: auto;
+    overflow: hidden; 
+  }
+  
+
+  .chart-card h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .chart-card canvas {
+    max-width: 100% !important; 
+    height: auto !important;   
+  }
+  
+ 
+  .activity-feed {
+    margin-top: 3rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-feed ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .activity-feed li {
+    font-size: 1.2rem;
+    color: #495057;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  

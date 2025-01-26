@@ -1,0 +1,15 @@
+
+.app {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: white;
+  color: black;
+}
+
+.app.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+.navbar, .navbar-content, .navbar-buttons {
+  color: inherit; 
+}
